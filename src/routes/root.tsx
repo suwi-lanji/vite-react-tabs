@@ -3,9 +3,9 @@ import BottomTabs from "../components/bottom-tabs";
 
 export default function Root() {
     return (
-        <div className="">
-            <main>
-                <Outlet/>
+        <div className="flex flex-col h-screen">
+            <main className="flex-grow">
+            <Outlet/>
             </main>
             <BottomTabs/>
         </div>
